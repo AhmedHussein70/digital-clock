@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+section {
+  border: 1px solid #000;
+  width: 70%;
+  margin: 100px auto;
+  padding: 10px;
+  box-shadow: 0px 2px 24px 0px darkblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.parent {
+  border: 1px solid #000;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  font-weight: 300;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.date{
+    margin: 10px;
+}
+.time {
+  margin: 10px;
+}
